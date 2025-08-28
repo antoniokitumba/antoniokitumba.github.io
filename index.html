@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>António Kitumba</title>
+    <!-- Favicon do site -->
+
+    <!-- Fontes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bibliotecas de ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container nav-wrapper">
+        <h1 class="logo" id="#index.html">
+          ANTON<span class="realce">DEV</span>
+        </h1>
+
+        <!-- Menu mobile com checkbox -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+        <nav class="navbar">
+          <a href="#sobre">Sobre</a>
+          <a href="#skills">Skills</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#github">GitHub</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-img">
+          <img src="asserts/eu.jpg" alt="Foto de perfil" class="profile-img" />
+        </div>
+        <div class="hero-text">
+          <h2><span class="typed-text" id="typed"></span></h2>
+          <p>
+            Sou António Kitumba, desenvolvedor front-end. Crio interfaces
+            funcionais, acessíveis e com foco na experiência do usuário.
+          </p>
+          <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container about-text">
+        <h2 class="section-title">Sobre mim</h2>
+        <p class="section-text">
+          Sou desenvolvedor front-end e experiência com criação de interfaces
+          web. Atuo com HTML, CSS, JavaScript, construindo soluções que
+          equilibram funcionalidade, usabilidade e identidade visual.
+        </p>
+
+        <p class="section-text">
+          Atualmente, trabalho como dev front-end na Kivra, continuo estudando e
+          evoluindo nos meus projetos paralelos, sempre buscando aprender mais e
+          compartilhar o que sei de forma simples e prática.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <!-- Cada "skill-card" representa uma habilidade com ícone -->
+          <div class="skill-card">
+            <i class="devicon-html5-plain colored"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-css3-plain colored"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-javascript-plain colored"></i>
+            <span>JavaScript</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-react-original colored"></i>
+            <span>React</span>
+          </div>
+
+          <div class="skill-card">
+            <i class="devicon-figma-plain colored"></i>
+            <span>Figma</span>
+          </div>
+        </div>
+
+        <!-- Alternativa: Habilidades em formato de tags -->
+        <!-- <div class="skills-list-icons">
+          <span class="skill-tag"><i class="devicon-html5-plain colored"></i> HTML</span>
+          <span class="skill-tag"><i class="devicon-css3-plain colored"></i> CSS</span>
+          <span class="skill-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+          <span class="skill-tag"><i class="devicon-typescript-plain colored"></i> TypeScript</span>
+          <span class="skill-tag"><i class="devicon-react-original colored"></i> React</span>
+          <span class="skill-tag"><i class="devicon-tailwindcss-plain colored"></i> Tailwind</span>
+          <span class="skill-tag"><i class="devicon-sass-original colored"></i> Sass</span>
+          <span class="skill-tag"><i class="devicon-git-plain colored"></i> Git</span>
+          <span class="skill-tag"><i class="devicon-github-original"></i> GitHub</span>
+          <span class="skill-tag"><i class="devicon-figma-plain colored"></i> Figma</span>
+        </div> -->
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projetos-grid">
+          <!-- Cada projeto pode ter link para GitHub e Deploy -->
+          <!-- É só duplicar esse bloco e alterar os dados -->
+          <div class="projeto-card">
+            <img
+              src="asserts/imgs/card-project-1.png"
+              alt="Print do projeto 1"
+            />
+            <h3>Previsão do Tempo</h3>
+            <p>
+              Aplicativo que exibe a previsão da semana. Desenvolvido com HTML,
+              CSS e JavaScript puro.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img
+              src="asserts/imgs/card-project-2.png"
+              alt="Print do projeto 2"
+            />
+            <h3>Blog Pessoal</h3>
+            <p>
+              Mockup responsivo criado como prática de estrutura HTML e
+              estilização com CSS.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img
+              src="asserts/imgs/card-project-3.png"
+              alt="Print do projeto 3"
+            />
+            <h3>Loja Online</h3>
+            <p>
+              Wireframe de loja virtual responsiva. Ideal para treinar grid,
+              responsividade e layout.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO GITHUB (opcional para quem ainda não tem projetos) -->
+    <!-- <section id="github" class="section">
+      <div class="container">
+        <h2 class="section-title">Meus códigos no GitHub</h2>
+        <p class="section-subtitle">Tô começando minha jornada como dev e já estou praticando bastante! No meu GitHub você encontra exercícios, mini projetos e experiências enquanto aprendo e evoluo.</p>
+        <a href="https://github.com/seuusuario" target="_blank" class="btn btn-primary">
+          <i class="devicon-github-original"></i> Ver meu GitHub
+        </a>
+      </div>
+    </section> -->
+
+    <!-- CONTATO -->
+    <section id="contato" class="section">
+      <div class="container contato-card">
+        <h2><span>Contato</span></h2>
+        <p>Me chama no LinkedIn ou manda um e-mail</p>
+        <div class="social-links">
+          <a href="https://github.com/Toito3" class="btn-social">
+            <i class="devicon-github-original"></i> GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ant%C3%B3nio-kitumba-987551380?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+            class="btn-social"
+          >
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a
+            href="https://mail.google.com/mail/kitumbaantonio@gmail.com"
+            class="btn-social"
+          >
+            <i class="fas fa-envelope"></i> E-mail
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+      <p>
+        Template criado por
+        <a href="https://github.com/Toito3" target="_blank">@antondev</a>
+        <br />
+        •© 2025 António Kitumba . Todos os direitos reservados.
+      </p>
+    </footer>
+
+    <!-- SCRIPT: Animação Hello World na Hero -->
+    <script>
+      const text = "Olá!";
+      const typedEl = document.getElementById("typed");
+
+      let i = 0;
+      function digitar() {
+        if (i < text.length) {
+          typedEl.innerHTML += text.charAt(i);
+          i++;
+          setTimeout(digitar, 120);
+        }
+      }
+
+      window.addEventListener("DOMContentLoaded", digitar);
+    </script>
+  </body>
+</html>
